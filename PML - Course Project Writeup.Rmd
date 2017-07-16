@@ -118,7 +118,7 @@ confusionMatrix(prediction, trainV$classe)
 
 The accuracy of the 3 models are as follows : Decision Tree : 0.7239, Random Forest : 0.9964 , Generalized Boosted Model(GBM) : 0.9871
 
-Random forest is chosen as the final model for prediction based on highest accuracy and for Random Forest model OOB estimate of  error rate (using the train subset in training set) is 0.44% and Out of sample error (using the validaton subset in the training set) is 0.36%
+Random forest is chosen as the final model for prediction based on highest accuracy and for Random Forest model OOB estimate of error rate (using the train subset in training set) is 0.44% and Out of sample error (using the validaton subset in the training set) is 0.36%
 
 ### Prediction on the final test data having 20 samples is as follows
 
